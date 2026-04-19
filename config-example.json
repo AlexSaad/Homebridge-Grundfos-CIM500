@@ -1,0 +1,13 @@
+{
+  "platform": "GrundfosCim500",
+  "name": "Grundfos CIM500",
+  "host": "192.168.200.110",
+  "port": 502,
+  "unitId": 1,
+  "pollIntervalMs": 5000,
+  "minBar": 2.2,
+  "maxBar": 3.8,
+  "defaultBar": 3.5,
+  "setConstantPressureOnStart": true,
+  "exposeDiagnostics": true
+}

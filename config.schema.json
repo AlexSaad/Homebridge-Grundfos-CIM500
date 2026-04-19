@@ -1,0 +1,21 @@
+{
+  "pluginAlias": "GrundfosCim500",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {"title": "Name", "type": "string", "default": "Grundfos CIM500"},
+      "host": {"title": "CIM 500 Modbus IP", "type": "string", "default": "192.168.200.110"},
+      "port": {"title": "Modbus TCP Port", "type": "integer", "default": 502},
+      "unitId": {"title": "Modbus Unit ID", "type": "integer", "default": 1},
+      "pollIntervalMs": {"title": "Polling Interval ms", "type": "integer", "default": 5000},
+      "minBar": {"title": "Minimum setpoint bar at 0% slider", "type": "number", "default": 2.2},
+      "maxBar": {"title": "Maximum setpoint bar at 100% slider", "type": "number", "default": 3.8},
+      "defaultBar": {"title": "Default setpoint bar", "type": "number", "default": 3.5},
+      "setConstantPressureOnStart": {"title": "Write Constant Pressure mode when turning on", "type": "boolean", "default": true},
+      "exposeDiagnostics": {"title": "Expose diagnostic sensors", "type": "boolean", "default": true}
+    },
+    "required": ["name", "host"]
+  }
+}

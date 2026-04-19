@@ -1,0 +1,12 @@
+{
+  "name": "homebridge-grundfos-cim500",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for Grundfos CMBE/CME via CIM 500 Modbus TCP",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0",
+    "homebridge": ">=1.6.0"
+  },
+  "keywords": ["homebridge-plugin", "grundfos", "cim500", "modbus", "pump"],
+  "license": "MIT"
+}
